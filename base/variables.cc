@@ -46,15 +46,6 @@ namespace base {
 				std::getline(iss, key, '=');
 				std::getline(iss, value);
 				GlobVars::list_of_params.insert(std::pair<std::string, std::string>(key, value));
-				// if (key == "ProxyHost") GlobVars::proxy_host = value;
-				// if (key == "UserAgent") GlobVars::user_agent = value;
-				// if (key == "DeviceMemory") GlobVars::device_memory = stoi(value);
-				// if (key == "BatteryCharging") value == "true" ? GlobVars::battery_charging = true : GlobVars::battery_charging = false;
-				// if (key == "BatteryChargeTime") GlobVars::battery_charging_time = stod(value);
-				// if (key == "BatteryDischargingTime") GlobVars::battery_discharging_time = stod(value);
-				// if (key == "BatteryStatus") GlobVars::battery_percentage = stod(value);
-				// if (key == "DomComplete")	GlobVars::dom_complete = stod(value);
-				// if (key == "LoadEventEnd")	GlobVars::load_event_end = stod(value);
 			}
 		}
 		return false;
