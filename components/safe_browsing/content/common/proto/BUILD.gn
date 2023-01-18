@@ -1,0 +1,16 @@
+# Copyright 2021 The Chromium Authors. All rights reserved.
+# Use of this source code is governed by a BSD-style license that can be
+# found in the LICENSE file.
+
+import("//components/safe_browsing/buildflags.gni")
+import("//third_party/protobuf/proto_library.gni")
+
+# Although this was gated on safe_browsing_mode != 0, a considerable amount
+# of source code that relies on the types included in download_file_types.pb.h
+# is not gated on BUILDFLAG(SAFE_BROWSING_AVAILABLE). This is far less
+# invasive than the alternative.
+# if (safe_browsing_mode != 0) {
+  proto_library("download_file_types_proto") {
+    sources = [ "download_file_types.proto" ]
+  }
+# }

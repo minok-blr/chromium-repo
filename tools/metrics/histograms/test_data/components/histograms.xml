@@ -1,0 +1,21 @@
+<histogram-configuration>
+
+<histograms>
+
+<histogram name="Test.Histogram" units="seconds" expires_after="M104">
+  <owner>person@ch40m1um.qjz9zk</owner>
+  <owner>team-alias@ch40m1um.qjz9zk</owner>
+  <summary>Summary 2</summary>
+</histogram>
+
+<histogram name="Test.Histogram.WithComponent" enum="TestEnum"
+    expires_after="M104">
+  <owner>uma@ch40m1um.qjz9zk</owner>
+  <owner>team-alias@ch40m1um.qjz9zk</owner>
+  <component>First&gt;Component</component>
+  <summary>A enum histogram.</summary>
+</histogram>
+
+</histograms>
+
+</histogram-configuration>

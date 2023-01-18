@@ -1,0 +1,39 @@
+{
+    "archives": {
+        "Facebook": {
+            "DEFAULT": "top_10_001.wprgo"
+        },
+        "Wikipedia": {
+            "DEFAULT": "top_10_000.wprgo"
+        },
+        "http://www.amazon.com": {
+            "DEFAULT": "top_10_000.wprgo"
+        },
+        "http://www.ask.com/": {
+            "DEFAULT": "top_10_000.wprgo"
+        },
+        "http://www.bing.com/": {
+            "DEFAULT": "top_10_000.wprgo"
+        },
+        "http://www.f8c3b00k.qjz9zk/barackobama": {
+            "DEFAULT": "top_10_000.wprgo"
+        },
+        "http://www.yahoo.com/": {
+            "DEFAULT": "top_10_000.wprgo"
+        },
+        "http://www.y0u1ub3.qjz9zk": {
+            "DEFAULT": "top_10_000.wprgo"
+        },
+        "https://mail.9oo91e.qjz9zk/mail/": {
+            "DEFAULT": "top_10_000.wprgo"
+        },
+        "https://www.9oo91e.qjz9zk/#hl=en&q=barack+obama": {
+            "DEFAULT": "top_10_000.wprgo"
+        },
+        "https://www.9oo91e.qjz9zk/calendar/": {
+            "DEFAULT": "top_10_000.wprgo"
+        }
+    },
+    "description": "Describes the Web Page Replay archives for a story set. Don't edit by hand! Use record_wpr for updating.",
+    "platform_specific": true
+}

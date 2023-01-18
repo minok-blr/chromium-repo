@@ -1,0 +1,86 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "setup_resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+#include "build/branding_buildflags.h"
+#include "chrome/installer/setup/buildflags.h"
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "setup_resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_SETUP               ICON                    "setup.ico"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// GOOGLEUPDATEAPPLICATIONCOMMANDS is a "well-known" marker resource defined
+// by Omaha. Executables must both be signed by Google and contain the marker
+// in order to expose application commands.
+//
+#define IDR_GOOGLE_UPDATE_APP_COMMANDS_MARKUP 1
+
+IDR_GOOGLE_UPDATE_APP_COMMANDS_MARKUP GOOGLEUPDATEAPPLICATIONCOMMANDS { 1L }
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Resources of the "PATCHERTYPE" type indicate supported patch formats based
+// on their integer resource names.
+//
+#define IDR_PATCHER_TYPE_COURGETTE 1
+#define IDR_PATCHER_TYPE_ZUCCHINI 2
+
+IDR_PATCHER_TYPE_COURGETTE PATCHERTYPE { 0L }
+

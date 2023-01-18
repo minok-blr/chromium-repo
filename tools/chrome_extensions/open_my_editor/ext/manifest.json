@@ -1,0 +1,47 @@
+{
+  "name": "OME",
+  "description": "OME gives you a context menu for opening files in your editor on Chromium Code Search and Code Review.",
+  "version": "0.6.0",
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "activeTab",
+    "http://127.0.0.1:8989/*"
+  ],
+  "icons": {
+    "16": "icon-16.png"
+  },
+  "background": {
+    "persistent": false,
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://chromium-review.9oo91esource.qjz9zk/*"
+      ],
+      "js": [
+        "gr-content.js"
+      ]
+    },
+    {
+      "matches": [
+        "https://cs.ch40m1um.qjz9zk/chromium/src/*"
+      ],
+      "js": [
+        "cs-content.js"
+      ]
+    },
+    {
+      "matches": [
+        "https://codereview.ch40m1um.qjz9zk/*"
+      ],
+      "js": [
+        "cr-content.js"
+      ]
+    }
+  ],
+  "manifest_version": 2
+}
